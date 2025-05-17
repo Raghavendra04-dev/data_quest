@@ -4,7 +4,7 @@
 ![Design drawio](https://github.com/user-attachments/assets/13851132-7a39-464a-b5f2-a96eec772dc7)
 
 ## Overview
-The *data_quest* project is implemented using AWS cloud. The project can be broadly categorised into 2 parts:
+The *data_quest* project is implemented on AWS cloud. The project can be broadly categorised into 2 parts:
 1. Ingestion Layer
 2. Processing Layer
 
