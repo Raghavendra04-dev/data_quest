@@ -21,4 +21,4 @@ Please refer to readme files under each part for more details.
 
 ### Processing Layer
 This layer is responsible for performing all the required analysis. The input for this layer is the S3 bucket and processing is done using jupyter notebook. Since the data volume is less pandas are used for processing, otherwise we can use Spark.<br>
-Source code: /Part3/data_analytics.ipynb
+- Source code: /Part3/data_analytics.ipynb
