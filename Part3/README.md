@@ -2,8 +2,8 @@
 This layer is implemented using Jupyter notebook running locally. Data Processing is done using pandas as the volume of data is less. The same logic can also be implemented using Spark.
 In the implementation Jupyter notebook extension is installed on VS code, but in actual use case it can be deployed on an EC2 instance or downloaded from AWS marketplace.
 There are 2 main files in this implementation:
-1. variable.env: contains all the parameters to prevent hard-coding
-2. data_analytics.ipynb: main logic 
+1. **`variable.env`**: contains all the parameters to prevent hard-coding
+2. **`data_analytics.ipynb`**: main logic 
 
 ### Logic
 The logic is based on the requirement mentioned in the **Part 3: Data Analytics** section of https://github.com/rearc-data/quest
