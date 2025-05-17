@@ -17,8 +17,11 @@ This layer is responsible for bringing the data from different sources in to S3 
    - responsible for fetching json data from `https://datausa.io/api/data`. The json file is stored in *`s3://rearcdataquestbucket/population/`*
    - Source code: `/Part2/fetch_usa_population_data.py`
 
-Please refer to readme files under each part for more details.
+
 
 ### Processing Layer
-This layer is responsible for performing all the required analysis. The input for this layer is the S3 bucket and processing is done using jupyter notebook. Since the data volume is less pandas are used for processing, otherwise we can use Spark.<br>
+This layer is responsible for performing all the required analysis. The input for this layer is the S3 bucket and processing is done using jupyter notebook. Since the data volume is less pandas are used for processing, otherwise we Spark can be used.<br>
 - Source code: `/Part3/data_analytics.ipynb`
+<br>
+<br>
+Please refer to readme files under each part for more details.
