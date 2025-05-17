@@ -11,10 +11,10 @@ The *data_quest* project is implemented using AWS cloud. The project can be broa
 ### Ingestion Layer
 This layer is responsible for bringing the data from different sources in to S3 bucket. Only 1 S3 bucket is used. However, the data is stored in separate directories. Implementation is done using AWS lambda functions. There are 2 lambda functions in this layer.
 1. bls_data:
-   - responsible for fetching the time series data from `bls.gov` website. The data files are stored in `*s3://rearcdataquestbucket/bls_data/*`
+   - responsible for fetching the time series data from `bls.gov` website. The data files are stored in *`s3://rearcdataquestbucket/bls_data/`*
    - Source code: `/Part1/fetch_bls_data.py`
 3. getUSApopulationdata:
-   - responsible for fetching json data from `https://datausa.io/api/data`. The json file is stored in `*s3://rearcdataquestbucket/population/*`
+   - responsible for fetching json data from `https://datausa.io/api/data`. The json file is stored in *`s3://rearcdataquestbucket/population/`*
    - Source code: `/Part2/fetch_usa_population_data.py`
 
 Please refer to readme files under each part for more details.
