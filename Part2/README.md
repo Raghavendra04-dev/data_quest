@@ -9,5 +9,5 @@ Actual lambda function code is part of the zip file **getUSApopulationdata.zip**
 ### Logic
 
 1. The above mentioned parameters are used as environment variable to prevent hard coded values within the lambda function.
-2. The code get the data from the *source_url* and overwrites into <S3 bucket/population/>
+2. The code gets the data from the *source_url* and writes into <S3 bucket/population/>
    
