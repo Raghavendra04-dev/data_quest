@@ -4,7 +4,7 @@ Actual lambda function code is part of the zip file **getUSApopulationdata.zip**
 - S3 Bucket: rearcdataquestbucket
 - Directory: population/
 - Source url: https://datausa.io/api/data?drilldowns=Nation&measures=Population
-- file_name: usa_population.json
+- file_name: usa_population.json (for storing in S3)
 
 ### Logic
 
