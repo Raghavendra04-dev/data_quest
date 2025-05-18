@@ -1,6 +1,6 @@
 ## Implementation
 Actual lambda function code is part of the zip file **getUSApopulationdata.zip**. However, for easier review the main python file **fetch_usa_population_data.py** is also committed to same repo.
-
+### Environment variables
 - S3 Bucket: rearcdataquestbucket
 - Directory: population/
 - Source url: https://datausa.io/api/data?drilldowns=Nation&measures=Population
